@@ -1,0 +1,78 @@
+:root {
+  --text: #434455;
+  --light: #f4f4fd;
+  --primary-brand: #4d5ae5;
+  --pressed-state: #404bbf;
+  --white-background: #fff;
+  --dark: #2e2f42;
+  --success: #31d0aa;
+  --subtle-text: #8e8f99;
+  --accent: #e7e9fc;
+  --modal-overlay: #2e2f4266;
+  --hero-background: #2e2f42b2;
+  --modal-background: #fcfcfc;
+}
+
+body {
+  font-family: "Roboto", sans-serif;
+  background-color: var(--white-background);
+  color: var(--text);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: /* 150% */ ;
+}
+.contacts {
+  font-weight: 400;
+}
+.link {
+  text-decoration: none;
+}
+.logo-link {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  color: var(--primary-brand);
+  font-weight: 800;
+  line-height:  /* 116.667% */ ;
+}
+.logo-studio {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  color: var(--dark);
+  font-weight: 800;
+  line-height:  /* 116.667% */ ;
+}
+
+.logo-studio-footer {
+  font-family: Raleway, sans-serif;
+  font-size: 18px;
+  color: var(--light);
+  font-weight: 800;
+  line-height:  /* 116.667% */ ;
+}
+.filter-button {
+  background: var(--light);
+  color: var(--primary-brand);
+  cursor: pointer;
+}
+.filter-button:hover,
+.filter-button:focus {
+  background: var(--pressed-state);
+  color: var(--white-background);
+}
+.footer {
+  background-color: var(--dark);
+  color: var(--light);
+}
+.head2 {
+  font-size: 20px;
+  font-weight: 500;
+  line-height: /* 120% */ ;
+}
+.paragraph {
+  font-weight: 400;
+}
+
+.paragraph-footer {
+  color: var(--light);
+  font-weight: 400;
+}
