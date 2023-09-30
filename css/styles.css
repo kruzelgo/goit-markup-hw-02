@@ -58,6 +58,8 @@ body {
   font-weight: 800;
   line-height: 1.17;
   letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .filter-button {
   background: var(--light);
@@ -73,7 +75,7 @@ body {
   background-color: var(--dark);
   color: var(--light);
 }
-.head2 {
+.title {
   font-size: 20px;
   font-weight: 500;
   line-height: 1.2;
@@ -87,7 +89,7 @@ body {
   color: var(--light);
   font-weight: 400;
 }
-.head1 {
+.heading {
   font-size: 56px;
   font-weight: 700;
   letter-spacing: 1.12px;
@@ -98,4 +100,12 @@ body {
 .head3 {
   font-size: 20px;
   letter-spacing: 0.4px;
+}
+
+.heading-secound {
+  font-size: 36px;
+  font-weight: 700;
+  letter-spacing: 0.72px;
+  text-transform: capitalize;
+  text-align: center;
 }
