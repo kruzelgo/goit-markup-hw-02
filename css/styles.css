@@ -20,7 +20,10 @@ body {
   font-size: 16px;
   font-weight: 500;
   line-height: 1.5;
-  letter-spacing: 0.02px;
+  letter-spacing: 0.02em;
+}
+.mainmenu {
+  color: var(--dark);
 }
 .list {
   list-style: none;
@@ -97,15 +100,29 @@ body {
   line-height: 1.07;
   text-align: center;
 }
-.head3 {
+.heading-third {
   font-size: 20px;
-  letter-spacing: 0.4px;
+  letter-spacing: 0.02em;
+  font-weight: 500;
+  line-height: 1.2;
+  color: var(--dark);
 }
 
-.heading-secound {
+.heading-second {
   font-size: 36px;
+  line-height: 1.11;
   font-weight: 700;
-  letter-spacing: 0.72px;
+  letter-spacing: 0.02em;
   text-transform: capitalize;
   text-align: center;
+  color: var(--dark);
+}
+.section {
+  background-color: var(--dark);
+}
+.section-team {
+  background-color: var(--light);
+}
+.team {
+  background-color: var(--white-background);
 }
