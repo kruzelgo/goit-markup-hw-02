@@ -19,27 +19,36 @@ body {
   color: var(--text);
   font-size: 16px;
   font-weight: 500;
-  line-height: /* 150% */ ;
+  line-height: 1.5;
+  letter-spacing: 0.02px;
 }
-.contacts {
+.list {
+  list-style: none;
+}
+.link-contacts {
   font-weight: 400;
+  color: var(--text);
 }
 .link {
   text-decoration: none;
+  color: var(--text);
+}
+.link:hover,
+.link:focus {
+  color: var(--pressed-state);
 }
 .logo-link {
   font-family: Raleway, sans-serif;
   font-size: 18px;
   color: var(--primary-brand);
   font-weight: 800;
-  line-height:  /* 116.667% */ ;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
 }
 .logo-studio {
-  font-family: Raleway, sans-serif;
-  font-size: 18px;
   color: var(--dark);
-  font-weight: 800;
-  line-height:  /* 116.667% */ ;
 }
 
 .logo-studio-footer {
@@ -47,7 +56,8 @@ body {
   font-size: 18px;
   color: var(--light);
   font-weight: 800;
-  line-height:  /* 116.667% */ ;
+  line-height: 1.17;
+  letter-spacing: 0.03em;
 }
 .filter-button {
   background: var(--light);
@@ -66,7 +76,8 @@ body {
 .head2 {
   font-size: 20px;
   font-weight: 500;
-  line-height: /* 120% */ ;
+  line-height: 1.2;
+  letter-spacing: 0.02em;
 }
 .paragraph {
   font-weight: 400;
@@ -75,4 +86,16 @@ body {
 .paragraph-footer {
   color: var(--light);
   font-weight: 400;
+}
+.head1 {
+  font-size: 56px;
+  font-weight: 700;
+  letter-spacing: 1.12px;
+  color: var(--white-background);
+  line-height: 1.07;
+  text-align: center;
+}
+.head3 {
+  font-size: 20px;
+  letter-spacing: 0.4px;
 }
