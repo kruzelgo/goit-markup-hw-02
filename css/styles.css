@@ -32,7 +32,7 @@ body {
 }
 .link {
   text-decoration: none;
-  color: var(--text);
+  color: var(--dark);
 }
 .link:hover,
 .link:focus {
