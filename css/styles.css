@@ -144,3 +144,6 @@ body {
 .team {
   background-color: var(--white-background);
 }
+.address {
+  font-style: normal;
+}
