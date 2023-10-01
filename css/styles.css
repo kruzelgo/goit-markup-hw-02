@@ -73,17 +73,21 @@ body {
   letter-spacing: 0.04em;
   cursor: pointer;
 }
-.fitter-button-main {
+.filter-button-main {
   font-weight: 500;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.04em;
   background-color: var(--primary-brand);
   color: var(--white-background);
+  font-family: "Roboto", sans-serif;
+  cursor: pointer;
 }
 
 .filter-button:hover,
-.filter-button:focus {
+.filter-button:focus,
+.filter-button-main:focus,
+.filter-button-main:hover {
   background: var(--pressed-state);
   color: var(--white-background);
 }
