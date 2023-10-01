@@ -26,14 +26,15 @@ body {
 .list {
   list-style: none;
 }
-.link-contacts {
-  font-weight: 400;
-  color: var(--dark);
-}
 .link {
   text-decoration: none;
   color: var(--dark);
 }
+.link-contacts {
+  font-weight: 400;
+  color: var(--text);
+}
+
 .link:hover,
 .link:focus {
   color: var(--pressed-state);
