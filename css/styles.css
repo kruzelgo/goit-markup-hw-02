@@ -28,7 +28,7 @@ body {
 }
 .link-contacts {
   font-weight: 400;
-  color: var(--text);
+  color: var(--dark);
 }
 .link {
   text-decoration: none;
@@ -70,6 +70,7 @@ body {
   line-height: 1.5;
   letter-spacing: 0.04em;
   cursor: pointer;
+  font-family: inherit;
 }
 .filter-button-main {
   font-weight: 500;
